@@ -14,7 +14,7 @@ So how do we avail ourselves of all of this great information?  You’re going t
 
 Here is the function getResults(), which I have programmed to run when my user wants to search for digital images by the keyword they’ve entered.  Piece by piece, I build a string which informs the browser where to send my request, and informs the Archives catalog which items I want to see.
 
-![Picture here](https://github.com/chfreem/APIHowTo/getResults.JPG)
+![Picture here](getResults.JPG)
 
 Note:  the response sent back to us by the Archives is automatically ordered by its relevance to our search terms, in descending order.  If you wish to, you may request ordering by other information instead—for example, by date, or alphabetically.  Information on how to do that is here.
 
