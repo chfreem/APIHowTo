@@ -1,0 +1,11 @@
+fieldlist {margin: 30px}
+button {margin: 30px}
+input {margin: 10px}
+div {margin: 30px;
+	font-size: 2em;}
+p {font-size: 75%}
+/*  Thanks to https://www.sitepoint.com/position-text-labels-on-forms-using-css/
+ *  for the help in making my form labels sit atop the input fields. */
+label {display: block;
+	font-weight: bold}
+img {max-width: 100%}
