@@ -26,7 +26,7 @@ Here is where you’re probably going to run into problems.  There seems to be n
  
 You can print the response to the console, with code similar to the following:
 
-# Graphic here
+![Code to log to console](ConsoleLog.JPG)
 
 And you can print the response to the screen by just typing the same query into your browser address window.  The response will look something like this:
 
