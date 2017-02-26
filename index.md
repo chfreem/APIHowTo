@@ -30,7 +30,7 @@ You can print the response to the console, with code similar to the following:
 
 And you can print the response to the screen by just typing the same query into your browser address window.  The response will look something like this, though it is too long to include in a graphic:
 
-![Pretty-formated JSON string](StringResponse.JPG)
+![Pretty-formated JSON string](Response.JPG)
 
 You can scan down through all of those indented brackets to find some information which looks useful to you.  Then you can use the console-logged object to hunt down your desired information's location within the response.  The response sent, even for only one digital file, is an intricate and many-leveled object—ten or eleven levels of nested objects and arrays of objects.  The reason printing this object to the console is advantageous is that the console provides a neatly collapsible outline view of the response object—clicking on a level will expand that level to show what it contains.  Clicking on it again will collapse it back to a single line so that you can more easily see what information is at which level in the object.
 
@@ -58,3 +58,5 @@ My user can become a registered user with the National Archives [here](https://c
 
 ## Conclusion
 Hopefully by now, you feel more confident in tackling your own project using the National Archives Catalog API.  It’s a great way to get involved with United States history and culture.  If you have further questions, feel free to contact the National Archives Catalog team by e-mailing them at api@nara.gov or through their [Github issue tracker](https://github.com/usnationalarchives/Catalog-API/issues).
+
+Cheryl Freeman, CS290-400, Winter 2017
