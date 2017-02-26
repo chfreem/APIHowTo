@@ -40,8 +40,7 @@ As an example of handling information from the response, here is my callback fun
 
 You’ll notice that at the end of the function shown above, I needed to make another API call to get some more information.  This is solely because my previous request returned only a digital file, and its title and information about it are included in its parent’s information.  The information you would like to use may very well not require two API requests.  Here is what the second API call looks like:
 
-
-# Graphic here
+![Code to get title](getTitle.JPG)
 
 The last piece of code which runs my example application, is the code required to preview the image and print its title and “Scope and Content” information to the screen when my user clicks on its thumbnail.
 
