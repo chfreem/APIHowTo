@@ -2,7 +2,7 @@
 
 This is a beginner’s guide to the United States National Archives Catalog API.  You can find the official documentation [here](https://github.com/usnationalarchives/Catalog-API).  But if the documentation seems a bit incomplete or unfriendly, not to worry.  You’ve come to the right place to get you started towards being able to use the API—and understand the documentation—yourself.
 
-To illustrate the use of the API, I have built a simple application which uses it.  You can play around with it [here](https://chfreem.github.io/APIHowTo/search.html).  The code which runs it is available here—there’s HTML5 for the page it’s on, a little CSS to change the look of the page, and some JavaScript.  We’ll inspect the JavaScript in detail below.
+To illustrate the use of the API, I have built a simple application which uses it.  You can play around with it [here](https://chfreem.github.io/APIHowTo/search.html).  The code which runs it is available here—there’s [HTML5](https://chfreem.github.io/APIHowTo/search.txt) for the page it’s on, a little [CSS](https://chfreem.github.io/APIHowTo/finalstylesheet.css) to change the look of the page, and some [JavaScript](https://chfreem.github.io/APIHowTo/search.js).  We’ll inspect the JavaScript in detail below.
 
 ## Why use the National Archives API?
 
