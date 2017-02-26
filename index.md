@@ -44,7 +44,7 @@ You’ll notice that at the end of the function shown above, I needed to make an
 
 The last piece of code which runs my example application, is the code required to preview the image and print its title and “Scope and Content” information to the screen when my user clicks on its thumbnail.
 
-# Graphic here
+![previewImage code](previewImage.JPG)
 
 The next logical step for my example application, would be to expand its capability to allow my user to log in to the Archives catalog, and tag the photo which they are currently previewing.
 
