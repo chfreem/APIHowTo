@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>National Archives search</title>
+<link rel="stylesheet" href="finalstylesheet.css" type="text/css">
+</head>
+<body>
+<form>
+	<fieldset id="keywordField">
+		<legend>Search by key word in all fields</legend>
+		<label>Keyword</label>
+			<input type="text" id="keyword"></input>
+		</label>
+</fieldset>
+<input id="submitButton" type="submit" value="Search" />
+</form>
+<p id="Results" ></p>
+<div >
+	<img class="thumbnail" id=0 ></img>
+	<img class="thumbnail" id=1 ></img>
+	<img class="thumbnail" id=2 ></img>
+	<img class="thumbnail" id=3 ></img>
+	<img class="thumbnail" id=4 ></img>
+	<p id="instructions"></p>
+</div>
+<div>
+	<p id="title"></p>
+	<p id="scope"></p>
+	<img id="preview"></img>
+</div>
+<script src="search.js"></script>
+</body>
+</html>
