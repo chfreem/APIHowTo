@@ -16,7 +16,7 @@ Here is the function getResults(), which I have programmed to run when my user w
 
 ![Picture here](getResults.JPG)
 
-Note:  the response sent back to us by the Archives is automatically ordered by its relevance to our search terms, in descending order.  If you wish to, you may request ordering by other information instead—for example, by date, or alphabetically.  Information on how to do that is [here](<https://github.com/usnationalarchives/Catalog-API/blob/master/search_and_export.md#user-content-sorting-results).
+Note:  the response sent back to us by the Archives is automatically ordered by its relevance to our search terms, in descending order.  If you wish to, you may request ordering by other information instead—for example, by date, or alphabetically.  Information on how to do that is [here](https://github.com/usnationalarchives/Catalog-API/blob/master/search_and_export.md#sorting-results).
 
 ## What do I do with a response from the National Archives API?
 
