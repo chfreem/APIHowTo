@@ -20,14 +20,17 @@ Note:  the response sent back to us by the Archives is automatically ordered by 
 
 ## What do I do with a response from the National Archives API?
 
-Here is where you’re probably going to run into problems.  There seems to be no official documentation on the format of the response from the API, and it varies depending on what kind of resultType you asked for (object, collection, etc.).  Your best bet is to send an experimental query such as the following (this is sending a request for a digital file with the National Archives Identification number of 12007750):
+Here is where you’re probably going to run into problems.  There seems to be no official documentation on the format of the response from the API, and it varies depending on what kind of resultType you asked for (object, collection, etc.).  Your best bet is to send an experimental query and print it to the console as an object, and print it to the screen as a string.  Here's an example of a simple query you can experiment with: (this is sending a request for a digital file with the National Archives Identification number of 12007750):
 
  [https://catalog.archives.gov/api/v1?naIds=12007750]( https://catalog.archives.gov/api/v1?naIds=12007750)
  
- 
+You can print the response to the console, with code similar to the following:
+
 # Graphic here
 
-Then you can look at the console to explore the information you received.  The response sent, even for only one digital file, is an intricate and many-leveled object—ten or eleven levels of nested objects and arrays of objects.  The reason printing this object to the console is advantageous is that the console provides a neatly collapsible outline view of the response object—clicking on a level will expand that level to show what it contains.  Clicking on it again will collapse it back to a single line so that you can more easily see what information is at which level in the object.
+And you can print the response to the screen by just typing the same query into your browser address window.  The response will look something like this:
+
+You can scan down through all of those indented brackets to find some information which looks useful to you.  Then you can use the console-logged object to hunt down your desired information's location within the response.  The response sent, even for only one digital file, is an intricate and many-leveled object—ten or eleven levels of nested objects and arrays of objects.  The reason printing this object to the console is advantageous is that the console provides a neatly collapsible outline view of the response object—clicking on a level will expand that level to show what it contains.  Clicking on it again will collapse it back to a single line so that you can more easily see what information is at which level in the object.
 
 As an example of handling information from the response, here is my callback function which runs when the response is received.  Remember that I requested 5 digital files to be sent.
 
