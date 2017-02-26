@@ -36,7 +36,7 @@ You can scan down through all of those indented brackets to find some informatio
 
 As an example of handling information from the response, here is my callback function which runs when the response is received.  Remember that I requested 5 digital files to be sent.
 
-# Graphic here
+![Code of imageCallback()](ImageCallback.JPG)
 
 You’ll notice that at the end of the function shown above, I needed to make another API call to get some more information.  This is solely because my previous request returned only a digital file, and its title and information about it are included in its parent’s information.  The information you would like to use may very well not require two API requests.  Here is what the second API call looks like:
 
