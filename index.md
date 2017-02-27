@@ -2,7 +2,7 @@
 
 This is a beginner’s guide to the United States National Archives Catalog API.  You can find the official documentation [here](https://github.com/usnationalarchives/Catalog-API).  But if the documentation seems a bit incomplete or unfriendly, not to worry.  You’ve come to the right place to get you started towards being able to use the API—and understand the documentation—yourself.
 
-To illustrate the use of the API, I have built a simple application which uses it.  You can play around with it [here](https://chfreem.github.io/APIHowTo/search.html).  The code which runs it is available here—there’s [HTML5](https://chfreem.github.io/APIHowTo/search.txt) for the page it’s on, a little [CSS](https://chfreem.github.io/APIHowTo/finalstylesheet.css) to change the look of the page, and some [JavaScript](https://chfreem.github.io/APIHowTo/search.js).  We’ll inspect the JavaScript in detail below.
+To illustrate the use of the API, I have built a simple application which uses it.  You can experiment with it [here](https://chfreem.github.io/APIHowTo/search.html).  The code which runs it is available here—there’s [HTML5](https://chfreem.github.io/APIHowTo/search.txt) for the page it’s on, a little [CSS](https://chfreem.github.io/APIHowTo/finalstylesheet.css) to change the look of the page, and some [JavaScript](https://chfreem.github.io/APIHowTo/search.js).  We’ll inspect the JavaScript in detail below.
 
 ## Why use the National Archives API?
 
@@ -20,7 +20,7 @@ Note:  the response sent back to us by the Archives is automatically ordered by 
 
 ## What do I do with a response from the National Archives API?
 
-Here is where you’re probably going to run into problems.  There seems to be no official documentation on the format of the response from the API, and it varies depending on what kind of resultType you asked for (object, collection, etc.).  Your best bet is to send an experimental query and print it to the console as an object, and print it to the screen as a string.  Here's an example of a simple query you can experiment with: (this is sending a request for a digital file with the National Archives Identification number of 12007750):
+Here is where you may run into problems.  There is no official documentation on the format of the response from the API, and it varies depending on what kind of resultType you asked for (object, collection, etc.).  Your best bet is to send an experimental query and print it to the console as an object, and print it to the screen as a string.  Here's an example of a simple query you can experiment with: (this is sending a request for a digital file with the National Archives Identification number of 12007750):
 
  [https://catalog.archives.gov/api/v1?naIds=12007750]( https://catalog.archives.gov/api/v1?naIds=12007750)
  
